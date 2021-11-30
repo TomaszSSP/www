@@ -1,0 +1,166 @@
+body
+{
+	background-color: gray;	
+	font-family: Verdana;
+	font-size: 20px;
+	color: white;
+}
+
+/* Nieodwiedzony link */
+a:link
+{
+	color: yellow;
+}
+/* Odwiedzony link */
+a:visited
+{
+	color: yellow;
+}
+/* Link po najechaniu kursorem */
+a:hover
+{
+	color: red;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+	
+	
+}
+#logo
+{
+	color: white;
+	margin-top: 20px;
+	font-size: 48px;
+	letter-spacing: 2px;
+	font-weight: 900;
+	text-align: center;
+	
+}
+#menu
+{
+	background-color: #303030;
+	margin-top: 20px;
+	color:#ffffff;
+	padding: 10px;
+	
+	
+	
+}
+#topbar
+{
+	padding: 10px;
+	margin-bottom: 10px;
+	height:370px;
+	background-color: black;
+	
+	
+	
+}
+
+#topbarL
+{
+	float:left;
+	padding: 20px;
+	width: 208px;
+	text-align: center;
+
+	
+	
+}
+#topbarR
+{
+	float:left;
+	padding: 20px;
+	width: 638px;
+	text-align: center;
+	
+	
+	
+}
+#sidebar
+{
+	float:left;
+	width: 148px;
+	min-height: 900px;
+	padding:20px;
+	background-color: #2C2B2B;
+	text-align: center;
+	font-size:18px;
+	border-right: 2px dotted #666666;
+	
+	
+	
+	
+	
+}
+#content
+{
+	float:left;
+	padding: 40px;
+	width: 708px;
+	background-color:gray;
+	
+	
+	
+}
+#footer
+{
+	clear:both;
+	color: white;
+	text-align: center;
+	background-color: black;
+	padding: 20px;
+	font-size: 18px;
+	
+	
+	
+}
+.option
+{
+	float:left;
+	min-width: 50px;
+	height: 25px;
+	font-size: 18px;
+	padding: 10px;
+	border-right: 2px dotted #444444;
+
+}
+.option:hover
+{
+	background-color: #000000;
+	color:yellow;
+	cursor: pointer;
+	
+}
+.optionL
+{
+	font-size:18px;
+	height:40px;
+	padding: 10px;
+	border-bottom: 2px dotted #444444;
+	
+	
+	
+}
+.optionL:hover
+{
+	
+	color:yellow;
+	cursor: pointer;
+	
+}
+.bigtitle
+{
+	font-size: 32px;
+	font-weight: 900;
+	letter-spacing: 2px;
+	
+	
+	
+}
